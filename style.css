@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* BEGINNING OF NAV */
+.border{
+    border: 3px solid #020202;
+}
+h1 {
+    margin-top: 35px;
+    display: inline-block;
+    color: white;
+}
+nav{
+    background-color: rgb(96, 117, 57);
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 3px 15px;
+    margin-bottom: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding:  10px 20px;
+    color:yellow;
+}
+nav ul li a:hover{
+    color: #000;
+    /* background-color: chartreuse; */
+    transition: 1s;
+}
+nav ul li a:active{
+    color: #fff;
+    background-color:crimson;
+}
+nav, footer{
+    height: 100px;
+}
+.logo {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+/* BEGINNING OF MAIN */
+main{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./img/CheersBeers.jpg");
+    /* background-position-x: center;
+    background-position-y: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: burlywood;
+    height: 800px;
+    position: relative;
+    z-index:-1;
+}
+main .main-child{
+
+    height: 300px;
+    width: 500px;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* BEGINNING OF ASIDE */
+aside{
+    background-color: rgba(0,0,0,.5);
+    width: 35%;
+    height:680px ;
+    float: right;
+    background-image: url("./img/BeerAside.jpg");
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+}
+aside h3{
+  text-align: center;
+  padding-top: 23px;
+  color: gold;
+}
+aside ul li {
+  margin: 80px;
+  list-style-type: none; 
+}
+
+aside ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(229, 230, 241);
+}
+
+aside ul li a:hover {
+  color: yellow;
+}
+.brewery-names {
+  margin-left: 125px;
+}
+/* BEGINNING OF SECTION AND ARTICLE*/
+section, article{
+    background-color: deepskyblue;
+    height: 680px;
+    width: 65%;
+    float: left;
+}
+/* BEGINNING OF FOOTER */
+/*start footer*/
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.034);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+
+
+/*Start header*/
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .form-control-dark {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: var(--bs-gray);
+  }
+  .form-control-dark:focus {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle {
+    outline: 0;
+  }
+
+
+
+
+
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ 
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+ 
+ 
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+ 
+}
